@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 100% 99%;
+    --foreground: 24 12% 24%;
+    --border: 30 30% 90%;
+    --input: 30 30% 90%;
+    --ring: 24 12% 24%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 5% 10%;
+    --foreground: 36 30% 92%;
+    --border: 240 5% 16%;
+    --input: 240 5% 16%;
+    --ring: 36 30% 92%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-hebrew;
+    overflow-x: hidden;
+    direction: rtl;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* Add a utility class to improve touch responsiveness */
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
+.glass-morphism {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10 shadow-[0_4px_12px_-2px_rgba(0,0,0,0.3)] dark:bg-black/5;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-br from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent dark:from-primary-light dark:to-primary-light/60;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+.hover-scale {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@font-face {
+  font-family: "ArabHeb";
+  src: url("/fonts/arab-heb-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
