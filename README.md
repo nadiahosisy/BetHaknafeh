@@ -17,5 +17,5 @@
 - Vite
 - TypeScript
 - React
-- shadcn-ui
+- Next.js
 - Tailwind CSS
