@@ -7,7 +7,7 @@
 כיום, המקום הוא הרבה יותר מקינוח – זהו בית חם שמעניק חוויית טעם ייחודית ואותנטית לכל מבקר.
 
 <div align="center">
-  <img src="/public/images/baklawaPistachio.jpg" alt="Baklava" width="400" />
+  <img src="/public/images/baklawaPistachio.jpg" alt="Baklava" width="300" />
 </div>
 
 ## טכנולוגיות בשימוש
