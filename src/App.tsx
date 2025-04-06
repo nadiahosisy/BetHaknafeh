@@ -15,7 +15,7 @@ import Location from "./pages/Location";
 import OurStory from "./pages/OurStory";
 import NotFound from "./pages/NotFound";
 import LoadingScreen from "./components/LoadingScreen";
-
+  
 const queryClient = new QueryClient();
 
 // ScrollToTop component that scrolls to top on route change
