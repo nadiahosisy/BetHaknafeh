@@ -39,7 +39,7 @@ const Menu = () => {
         name: "אספרסו",
         description: "אספרסו קצר/ ארוך/ כפול קצר/ כפול ארוך",
         price: "12₪",
-        image: "images/espresso (2).jpg",
+        image: "images/esspresso.jpg",
       },
       {
         name: "מקיאטו",
@@ -58,7 +58,7 @@ const Menu = () => {
         name: "קפה שחור",
         description: "קפה שחור טחון במקום עם מים חמים.",
         price: "12₪",
-        image: "images/blackcoffee.jpg",
+        image: "images/blackCoffee.jpg",
       },
       {
         name: "אמריקנו",
@@ -72,7 +72,7 @@ const Menu = () => {
         description:
           "קפה חם ועדין המבוסס על מנת אספרסו עם חלב חם מוקצף שמעניק לו מרקם חלק וקרמי.",
         price: "15₪",
-        image: "images/cappuccino.jpg",
+        image: "images/cappuccino2.jpg",
       },
       {
         name: "קפה מוקה",
@@ -162,13 +162,13 @@ const Menu = () => {
       {
         name: "ברד ענבים",
         description: "",
-        price: "10₪",
+        price: "12₪",
         image: "images/grapeslush.jpg",
       },
       {
         name: "ברד פסיפלורה",
         description: "",
-        price: "10₪",
+        price: "12₪",
         image: "images/passionslush.jpg",
       },
       {
@@ -195,12 +195,30 @@ const Menu = () => {
         price: "10₪",
         image: "images/energydrink.jpg",
       },
+      {
+        name: "XL",
+        description: "",
+        price: "10₪",
+        image: "images/energydrinkten.jpg",
+      },
       { name: "סודה", description: "", price: "10₪", image: "images/soda.jpg" },
       {
         name: "פאנטה",
         description: "",
         price: "10₪",
         image: "images/fanta.jpg",
+      },
+      {
+        name: "ספרייט",
+        description: "",
+        price: "10₪",
+        image: "images/sprite.jpg",
+      },
+      {
+        name: "ספרייט זירו",
+        description: "",
+        price: "10₪",
+        image: "images/zerosprite.jpg",
       },
       {
         name: "קוקה קולה",
@@ -250,6 +268,13 @@ const Menu = () => {
           "8 יחידות של צ'ורוס טריים, זהובים ופריכים, מצופים בסוכר וקינמון. מוגשים לצד קצפת עם רטבים לבחירה: קינדר, נוטלה או שוקולד לבן.",
         price: "45₪",
         image: "images/churros.jpg",
+      },
+      {
+        name: "קוראסון גלידה",
+        description:
+          "קוראסון חמאתי טרי, פריך מבחוץ ורך מבפנים – מוגש חם, חצוי, וממולא בגלידת שמנת איכותית בטעמים לבחירה. שילוב מושלם של חום וקור, קרמיות ופריכות, שמתמוסס בפה בכל ביס. רטבים לבחירה: קינדר, נוטלה, קרם פיסטוק, לוטוס ו שוקולד לבן.",
+        price: "45₪",
+        image: "images/corrasiont.jpg",
       },
     ],
     כנאפה: [
@@ -310,6 +335,13 @@ const Menu = () => {
           "עוגת סולת מסורתית, רכה ונימוחה, ספוגה בסירופ סוכר עדין ומעוטרת בשקד מעל.",
         price: "40₪ לקילו",
         image: "images/harissa.jpg",
+      },
+      {
+        name: "עוואמה",
+        description:
+          "כדורי בצק מטוגנים, פריכים מבחוץ ורכים מבפנים, טבולים בסירופ מתוק – בדיוק כמו פעם.",
+        price: "70₪ לקילו",
+        image: "images/awame.jpg",
       },
     ],
   };
@@ -496,7 +528,7 @@ const Menu = () => {
       <div className="relative h-[30vh] sm:h-[40vh] md:h-[60vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/lovable-uploads/af376e6c-4e24-4b16-9452-bd4a34f7eedf.png"
+            src="/public/images/1M8A9729.JPG"
             alt="Coffee Hero"
             className="w-full h-full object-cover"
           />

@@ -119,7 +119,7 @@ const CoolEntryAnimation = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.5 }}
         >
-          טעימה בכל ביס
+          חוויה בכל ביס
         </motion.div>
       </motion.div>
     </motion.div>

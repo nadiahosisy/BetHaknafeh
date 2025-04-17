@@ -1,12 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  MapPin,
-  Clock,
-  Phone,
-  Instagram,
-  Facebook,
-  MessageCircle,
-} from "lucide-react";
+import { MapPin, Instagram, Facebook, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Location = () => {
@@ -46,7 +39,7 @@ const Location = () => {
         <div className="relative h-[70vh] w-full overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="/lovable-uploads/b9711b3b-bd2d-4f1d-9044-5f7084551b02.png"
+              src="/public/images/locationPhoto.jpg"
               alt="Traditional Middle Eastern restaurant exterior"
               className="w-full h-full object-cover"
             />
@@ -152,7 +145,7 @@ const Location = () => {
                 className="h-[400px] glass-morphism rounded-xl overflow-hidden relative"
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3378.096889482175!2d35.04384287627518!3d32.73888437397088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dba2baa639c61%3A0x7200f4cd4ec99954!2sAbba%20Khoushy%20St%20352%2C%20Isfiya!5e0!3m2!1sen!2sil!4v1719755998765!5m2!1sen!2sil"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.380626027402!2d35.05574322488037!3d32.72908238643512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dafa83038bc09%3A0x3697be9c507f5a29!2z15HXmdeqINeU15vXoNeQ16TXlA!5e0!3m2!1siw!2sil!4v1744925101193!5m2!1siw!2sil"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

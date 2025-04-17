@@ -50,7 +50,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl md:text-2xl font-hebrew text-white/90"
         >
-          טעמו של מסורת, ביס אחד בכל פעם
+          מסורת של טעם, ביס אחר ביס.
         </motion.p>
 
         <motion.div
