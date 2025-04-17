@@ -1,5 +1,6 @@
-
 import type { Config } from "tailwindcss";
+
+
 
 export default {
   darkMode: ["class"],
@@ -26,38 +27,38 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#E6A168", // Warm caramel color
-          dark: "#1A1A1D", // Changed from deep brown to dark charcoal
-          light: "#FDE1D3", // Soft peach
+          DEFAULT: "#BFA75A", // Old money gold – muted, warm
+          dark: "#8C7533", // Deeper antique/brassy gold
+          light: "#E5D7A3", // Pale dusty gold
         },
         secondary: {
-          DEFAULT: "#8B4513", // Saddle brown
-          dark: "#222222", // Changed to a darker gray
-          light: "#DEB887", // Burlywood
+          DEFAULT: "#0B1D3A", // Deep navy – classic luxury blue
+          dark: "#081323", // Almost-black navy
+          light: "#1F2E47", // Slate blue-gray
         },
         accent: {
-          DEFAULT: "#FEF7CD", // Soft cream
-          dark: "#2C2C34", // Changed to a dark slate color
-          light: "#FFF8DC", // Cornsilk
+          DEFAULT: "#F3EFDC", // Elegant ivory/cream
+          dark: "#2A2E37", // Dusty deep gray-blue
+          light: "#FAF7ED", // Parchment white
         },
         textColor: {
-          DEFAULT: "#2C1810", // Deep brown
-          dark: "#F5F5F5", // Changed to a lighter off-white
-          light: "#4A2511", // Rich brown
-        }
+          DEFAULT: "#EDE3B9", // Champagne gold – subtle, readable
+          dark: "#F5F5F5", // Soft ivory – perfect on dark bg
+          light: "#C6B170", // Aged metallic gold
+        },
       },
+
       fontFamily: {
         hebrew: ["Heebo", "sans-serif"],
         heading: ["Rubik", "sans-serif"],
-        arabicHebrew: ["ArabHeb", "sans-serif"], 
-        knafeh: ["Pacifico", "cursive"], 
+        arabicHebrew: ["ArabHeb", "sans-serif"],
+        knafeh: ["Pacifico", "cursive"],
         classicArabic: ["Amiri", "serif"],
         knafeh1: ["David Libre", "serif"],
-
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out",
-        "float": "float 3s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
         "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "bounce-slow": "bounce 3s infinite",
       },

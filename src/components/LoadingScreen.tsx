@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const LoadingScreen = () => {
@@ -7,7 +6,7 @@ const LoadingScreen = () => {
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
       transition={{ duration: 1, delay: 2 }}
-      onAnimationComplete={() => document.body.style.overflow = 'unset'}
+      onAnimationComplete={() => (document.body.style.overflow = "unset")}
       className="fixed inset-0 z-50 flex items-center justify-center bg-background"
     >
       <motion.img

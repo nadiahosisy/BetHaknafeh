@@ -1,4 +1,3 @@
-
 import { Coffee, ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
@@ -8,17 +7,17 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleMenuClick = () => {
-    navigate('/menu');
+    navigate("/menu");
   };
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video */}
-      <video 
+      <video
         className="absolute inset-0 w-full h-full object-cover"
-        autoPlay 
-        loop 
-        muted 
+        autoPlay
+        loop
+        muted
         playsInline
       >
         <source src="/videos/mainPage2.mp4" type="video/mp4" />
@@ -27,16 +26,16 @@ const Hero = () => {
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/50" />
-      
+
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-primary/10 to-transparent dark:from-primary-dark/20 dark:via-primary-dark/10 mix-blend-overlay animate-gradient" />
-      
+
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[url('/pattern.svg')] bg-repeat opacity-5 dark:opacity-10" />
-      
+
       {/* Content */}
       <div className="relative z-10 text-center space-y-8 p-4 max-w-4xl mx-auto">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -44,8 +43,8 @@ const Hero = () => {
         >
           היכנסו לעולם מתוק של הכנאפה
         </motion.h1>
-        
-        <motion.p 
+
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -53,8 +52,8 @@ const Hero = () => {
         >
           טעמו של מסורת, ביס אחד בכל פעם
         </motion.p>
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -63,7 +62,7 @@ const Hero = () => {
           <Button
             size="lg"
             onClick={handleMenuClick}
-            className="bg-white text-primary hover:bg-white/90 dark:bg-white dark:text-primary-dark dark:hover:bg-white/90 transition-all duration-300 transform hover:scale-105"
+            className="bg-primary text-white hover:bg-primary/90 dark:bg-primary dark:text-white-dark dark:hover:bg-primary/90 transition-all duration-300 transform hover:scale-105"
           >
             לתפריט שלנו
           </Button>
@@ -71,7 +70,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
