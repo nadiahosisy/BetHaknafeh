@@ -26,14 +26,14 @@ const Menu = () => {
         name: "תה",
         description: "מים חמים עם נענע/ פרוסות לימון/ מקלות קינמון.",
         price: "10₪",
-        image: "images/tea.jpg",
+        image: "images/tea.png",
       },
       {
         name: "קנקן תה",
         description:
-          "מים חמים עם נענע/פרוסות לימון/ מקלות קינמון. (ל-5 סועדים)",
+          "מים חמים עם נענע/פרוסות לימון/ מקלות קינמון. (ל-4 סועדים)",
         price: "30₪",
-        image: "images/teapot.jpg",
+        image: "images/teapot.png",
       },
       {
         name: "אספרסו",
@@ -45,7 +45,7 @@ const Menu = () => {
         name: "מקיאטו",
         description: "אספרסו קצר/ ארוך/ כפול קצר/ כפול ארוך ומעל חלב חם מוקצף.",
         price: "12₪",
-        image: "images/macchiato.jpg",
+        image: "images/macchiato.png",
       },
       {
         name: "אפוגטו",
@@ -86,14 +86,14 @@ const Menu = () => {
         description:
           "משקה מתוק ומחמם המבוסס על אבקת שוקו איכותית עם חלב חם מוקצף. ניתן להוסיף מרשמלו או קצפת לתוספת פינוק.",
         price: "15₪",
-        image: "images/hotchocolate.jpg",
+        image: "images/hotchocolate.png",
       },
       {
         name: "סחלב",
         description:
           "משקה חם, סמיך ומפנק המוכן מחלב חם מבושל. ניתן להוסיף תוספות קלאסיות של פיסטוק קצוץ, פירורי לוטוס, קינמון וקוקוס.",
         price: "20₪",
-        image: "images/sahlab.jpg",
+        image: "images/sahlab.png",
       },
     ],
     "שתייה קרה": [
