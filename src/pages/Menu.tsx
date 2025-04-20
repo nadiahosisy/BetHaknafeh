@@ -102,42 +102,42 @@ const Menu = () => {
         description:
           "על בסיס גלידה עשירה בטעמים לבחירה (שוקולד בלגי, וניל קלאסי, תות, וניל-עוגיות, פיסטוק, לוטוס, וניל דובדבן, מסטיק) – מוגש עם קצפת מעל.",
         price: "25₪",
-        image: "images/milkshake.jpg",
+        image: "images/milkshake.png",
       },
       {
         name: "קפה קר",
         description:
           "אספרסו איכותי, מוגש עם חלב טרי, קרח ומעט מתיקות לבחירתכם. מוגש עם קצפת מעל.",
         price: "15₪",
-        image: "images/icedcoffee.jpg",
+        image: "images/icedcoffee.png",
       },
       {
         name: "אייס וניל",
         description:
           "משקה קרמי ומפנק על בסיס וניל, קרח גרוס וחלב טרי – מוגש עם קצפת מעל.",
         price: "12₪",
-        image: "images/icedvanilla.jpg",
+        image: "images/icedvanilla.png",
       },
       {
         name: "אייס קפה",
         description:
           "משקה קרמי וממכר על בסיס קפה נמס איכותי, קרח גרוס וחלב טרי – מוגש עם קצפת מעל.",
         price: "12₪",
-        image: "images/frozencoffe.jpg",
+        image: "images/frozencoffe.png",
       },
       {
         name: "לימונענע גרוס",
         description:
           "שילוב מרענן של לימון חמצמץ ונענע טרייה עם קרח גרוס וסירופ מתקתק במידה הנכונה.",
         price: "12₪",
-        image: "images/mintlemonade.jpg",
+        image: "images/mintlemonade.png",
       },
       {
         name: "קנקן לימנענע גרוס",
         description:
           "קנקן גדול של משקה מרענן של לימון חמצמץ ונענע טרייה עם קרח גרוס וסירופ מתקתק במידה הנכונה.",
         price: "30₪",
-        image: "images/mintlemonadejug.jpg",
+        image: "images/mintlemonadejug.png",
       },
       {
         name: "תפוזים סחוט טבעי",
