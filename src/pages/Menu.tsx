@@ -52,7 +52,7 @@ const Menu = () => {
         description:
           "כדור גלידה לבחירתכם מוגש עם אספרסו קצר/ ארוך/ כפול קצר/ כפול ארוך.",
         price: "15₪",
-        image: "images/affogato.jpg",
+        image: "images/affogato.png",
       },
       {
         name: "קפה שחור",
@@ -77,9 +77,16 @@ const Menu = () => {
       {
         name: "קפה מוקה",
         description:
-          "משקה מתוק ומחמם המבוסס על אבקת שוקו – שילוב מפנק של אספרסו איכותי, שוקולד עשיר וחלב מוקצף, עם אבקת קקאו מעל להשלמת הטעם.",
+          "שכבת פרליני שוקולד חלב בתחתית הכוס, מעליהם מנת אספרסו עשירה, חלב מוקצף קטיפתי ומעטה קקאו עדין מעל – שילוב מושלם של מרקמים וטעמים בכל לגימה.",
         price: "18₪",
-        image: "images/mocha.jpg",
+        image: "images/mocha.png",
+      },
+      {
+        name: "לוטוס לאטה",
+        description:
+          "שכבת ממרח לוטוס עשיר בתחתית הכוס, מעליה מנת אספרסו וחלב חם מוקצף, עטופים בענן של קצפת מתוקה ומפוזרים פירורי לוטוס מעל – פינוק חורפי ממכר עם טעם קרמלי מושלם.",
+        price: "18₪",
+        image: "images/lotusLatte.png",
       },
       {
         name: "שוקו חם",
@@ -110,6 +117,20 @@ const Menu = () => {
           "אספרסו איכותי, מוגש עם חלב טרי, קרח ומעט מתיקות לבחירתכם. מוגש עם קצפת מעל.",
         price: "15₪",
         image: "images/icedcoffee.png",
+      },
+      {
+        name: "שוקו קר",
+        description:
+          "משקה שוקו קר עשיר ומרענן, מוגש בכוס זכוכית גבוהה עם שכבת חלב מוקצף מעל, קרח קוביות ושכבה נדיבה של קקאו מפוזר מעל. ",
+        price: "15₪",
+        image: "images/icedchocolate.png",
+      },
+      {
+        name: "שוקו-מוקה קר",
+        description:
+          "שילוב מושלם של אספרסו איכותי עם שוקו עשיר, חלב קר וקוביות קרח,  קצפת אוורירית ופיזור קקאו מעל – טעם עמוק ומרענן בכל לגימה.",
+        price: "15₪",
+        image: "images/icedmoka.png",
       },
       {
         name: "אייס וניל",
@@ -143,21 +164,21 @@ const Menu = () => {
         name: "תפוזים סחוט טבעי",
         description: "תפוזים טריים, נסחטים במקום למיץ טבעי, מתוק ומלא בריאות.",
         price: "15₪",
-        image: "images/orangeJuice.jpg",
+        image: "images/orangeJuice.png",
       },
       {
         name: "לימונדה קלאסית",
         description:
           "משקה לימונדה מרענן בטעם לימון מתקתק, מוכן במיוחד לרגעים של פינוק ורעננות.",
         price: "8₪",
-        image: "images/lemonade.jpg",
+        image: "images/lemonade.png",
       },
       {
         name: "קנקן לימונדה קלאסית",
         description:
           "קנקן גדול של משקה לימונדה מרענן בטעם לימון מתקתק, מוכן במיוחד לרגעים של פינוק ורעננות.",
         price: "20₪",
-        image: "images/lemonadejug.jpg",
+        image: "images/lemonadejug.png",
       },
       {
         name: "ברד ענבים",
@@ -184,10 +205,10 @@ const Menu = () => {
         image: "images/grapejuice.jpg",
       },
       {
-        name: "אשכוליות",
+        name: "תות בננה",
         description: "",
         price: "10₪",
-        image: "images/grapefruitjuice.jpg",
+        image: "images/strawberryBananaJuice.jpg",
       },
       {
         name: "XL",
